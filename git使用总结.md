@@ -31,3 +31,6 @@
 
 2. 当对本地文件夹clone远程仓库时，会把仓库本地克隆下来，即在本地文件夹里面会出现远程仓库的名称，在这个仓库里面才是git初始化的本地仓库。此时如果你对本地根目录进行git init 就会发生git冲突，导致无法add
 
+#### push时的问题
+
+1. `git push name master`是老版代码，现在变成了`git push origin main`这里的origin和main可以通过查看远程分支的代码检查`git branch -a`
