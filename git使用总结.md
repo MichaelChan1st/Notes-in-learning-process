@@ -13,9 +13,9 @@
 * 另外一种方式就是直接对远程库迭代更新
 
 1. 在指定的文件夹下使用git clone 远程库地址
-2. git pull name master 
+2. git pull name main
 3. 对拉取的文件进行更改，然后git add 和git commit
-4. 最后git push name master
+4. 最后git push name main
 
 ## 过程中的遇到的问题以及发现
 
@@ -29,7 +29,7 @@
 
    *注意克隆和建立与远程仓库连接还是有区别*
 
-2. 当对本地文件夹clone远程仓库时，会把仓库本地克隆下来，即在本地文件夹里面会出现远程仓库的名称，在这个仓库里面才是git初始化的本地仓库。此时如果你对本地根目录进行git init 就会发生git冲突，导致无法add
+2. 当对本地文件夹clone远程仓库时，在本地文件夹里面会出现远程仓库的名称，在这个仓库里面才是git初始化的本地仓库。此时如果你对本地根目录进行git init 就会发生git冲突，导致无法add
 
 #### push时的问题
 

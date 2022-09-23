@@ -5,8 +5,6 @@ import warnings
 warnings.filterwarnings('ignore') # Deleting of the warnings which we are not be interested in
 ```
 
-* `Focal loss`能够解决多类数据不平衡问题
-
 ## Pandas专栏
 
 * pd.concat():就像数据库的表连接一样有inner join 和out join
